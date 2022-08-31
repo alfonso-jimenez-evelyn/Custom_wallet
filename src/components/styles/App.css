@@ -1,23 +1,36 @@
-/* App  */
-.App {
-  position: relative;
-  width: 1440px;
-  height: 3505px;
+p {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 140%;
+  color: #000000;
+}
 
+h2 {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 102px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.App {
   background: #FFFFFF;
 }
 
 
-/* Header  */
 .Header-Div {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 678px;
   left: 0px;
   top: 0px;
   background: #B8E2F2;
 }
-
 .Header-Tittle {
   position: absolute;
   left: 7.78%;
@@ -34,7 +47,6 @@
 
   color: #000000;
 }
-
 .Header-Image {
   position: absolute;
   left: 75.42%;
@@ -42,23 +54,88 @@
   top: 23.01%;
   bottom: 45.43%;
 }
-
 .Header-Text {
   position: absolute;
   left: 7.78%;
   right: 42.22%;
   top: 44.69%;
-  bottom: 10.47%;
-
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 140%;
-  /* or 38px */
+  bottom: 10.47%;  
+}
 
 
-  color: #000000;
+.Middle-Div {
+  position: absolute;
+  width: 100%;
+  height: 1164px;
+  left: 0px;
+  top: 678px;
+  background: #CDEAF5;
+}
+.Middle-Line {
+  position: absolute;
+  left: 10.07%;
+  right: 10.07%;
+  top: 4.3%;
+  bottom: 95.7%;
+  border: 3px solid #000000;
+}
+.Middle-Title {
+  position: absolute;
+  left: 16.18%;
+  right: 16.18%;
+  top: 5.76%;
+  bottom: 82.65%;  
+}
+.Middle-Image {
+ 
+  margin-top: 220px;
+  display: block;
+  margin-right: auto; 
+  margin-left: auto;
 
 }
+.Middle-Logo-1 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 233px;
+  top: 557px;
+}
+.Middle-Logo-2 {
+  position: absolute;
+  width: 91.12px;
+  height: 60px;
+  left: 674.48px;
+  top: 581px;
+}
+.Middle-Logo-3 {    
+  position: absolute;
+  left: 78.41%;
+  right: 18.41%;
+  top: 49.46%;
+  bottom: 43.45%;
+  border-radius: 0.25px;
+}
+.Middle-Text-Logo-1 {
+  position: absolute;
+  left: 11.39%;
+  right: 68.4%;
+  top: 65.38%;
+  bottom: 17.61%;  
+}
+.Middle-Text-Logo-2 {
+  position: absolute;
+  left: 39.86%;
+  right: 39.93%;
+  top: 65.89%;
+  bottom: 17.1%;  
+}
+.Middle-Text-Logo-3 {
+  position: absolute;
+  left: 70.69%;
+  right: 9.1%;
+  top: 65.89%;
+  bottom: 17.1%;  
+}
+
 
