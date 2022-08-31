@@ -1,0 +1,64 @@
+/* App  */
+.App {
+  position: relative;
+  width: 1440px;
+  height: 3505px;
+
+  background: #FFFFFF;
+}
+
+
+/* Header  */
+.Header-Div {
+  position: absolute;
+  width: 1440px;
+  height: 678px;
+  left: 0px;
+  top: 0px;
+  background: #B8E2F2;
+}
+
+.Header-Tittle {
+  position: absolute;
+  left: 7.78%;
+  right: 41.11%;
+  top: 13.86%;
+  bottom: 55.31%;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 128px;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.Header-Image {
+  position: absolute;
+  left: 75.42%;
+  right: 9.72%;
+  top: 23.01%;
+  bottom: 45.43%;
+}
+
+.Header-Text {
+  position: absolute;
+  left: 7.78%;
+  right: 42.22%;
+  top: 44.69%;
+  bottom: 10.47%;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 140%;
+  /* or 38px */
+
+
+  color: #000000;
+
+}
+

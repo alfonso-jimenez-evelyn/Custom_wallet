@@ -1,25 +1,29 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-contract CustomWallet {
-    uint public unlockTime;
-    address payable public owner;
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
 
-    event Withdrawal(uint amount, uint when);
+contract CustomWallet is ERC721 {
+  using Counters for Counters.Counter;
+  uint public unlockTime;
+  address payable public owner;
 
-    constructor(uint _unlockTime) payable {
-        require(
-            block.timestamp < _unlockTime,
-            "Unlock time should be in the future"
-        );
+  event Withdrawal(uint amount, uint when);
 
-        unlockTime = _unlockTime;
-        owner = payable(msg.sender);
-    }
+  constructor(uint _unlockTime) payable {
+      require(
+          block.timestamp < _unlockTime,
+          "Unlock time should be in the future"
+      );z
 
-    function createIdentity()
-    
-    function verifyIdentity()
+      unlockTime = _unlockTime;
+      owner = payable(msg.sender);
+  }
 
-    function revokeIdentity()
+  function createIdentity()
+  
+  function verifyIdentity()
+
+  function revokeIdentity()
 }
