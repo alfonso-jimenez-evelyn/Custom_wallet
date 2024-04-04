@@ -2,6 +2,9 @@ name: Generate changelog
 on:
   release:
     types: [created, edited]
+  push:
+    branches:
+        - release/*
 
 env:    
     ENVIRONMENT_NAME: 'test'
