@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n ./changelog.config.js"
+    "changelogasa": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n ./changelog.config.js"
   },
   "eslintConfig": {
     "extends": [
