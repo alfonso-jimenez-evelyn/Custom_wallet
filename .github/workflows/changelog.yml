@@ -2,6 +2,9 @@ name: Generate changelog
 on:
   release:
     types: [created, edited]
+  push:
+    branches:
+        - release/*
 
 env:    
     ENVIRONMENT_NAME: 'test'
@@ -15,8 +18,8 @@ jobs:
         fetch-depth: 0
     - uses: BobAnkh/auto-generate-changelog@v1.2.5
       with:
-        REPO_NAME: 'alfonso-jimenez-evelyn/Custom_wallet'
-        ACCESS_TOKEN: ${{secrets.G_TOKEN}}
+        REPO_NAME: ''
+        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
         PATH: 'CHANGELOG.md'
         COMMIT_MESSAGE: 'docs(CHANGELOG): update release notes'
         TYPE: 'feat:Feature,fix:Bug Fixes,docs:Documentation,refactor:Refactor,perf:Performance Improvements'
